@@ -1,8 +1,15 @@
 ---
-title: Welcome to Middleman
+title: CI2Go The CircleCI Client for iPhone and iPad
 ---
 
-.welcome
-  h1 Middleman is Watching
-  p.doc
-    == link_to "Read Online Documentation", "http://middlemanapp.com/"
+.wrap
+  object type="image/svg+xml" data=asset_url("logo.svg", "images") width="100%" height="100%"
+  h1 CI2Go
+  h2
+    | The CircleCI Client
+    br
+    | for iPhone and iPad
+  p.caption Now Waiting for Review
+  - 1.upto(5) do|n|
+    p.img
+      img src="https://raw.githubusercontent.com/ngs/ci2go/master/Resources/screenshots/ipad/screen#{n}.png"
