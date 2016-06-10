@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 gem 'dotenv'
 
 gem "middleman", "~>3.3.7"
-gem "slim", "~> 2.0"
+gem "slim", "~> 3.0"
 gem 'sass'
 gem 'coffee-script'
 
