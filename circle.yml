@@ -1,0 +1,22 @@
+chine:
+  timezone: UTC
+  ruby:
+    version: 2.2.2
+  environment:
+    TAGGER_DIR: vendor/tree-tagger
+    TREETAGGER_COMMAND: vendor/tree-tagger/cmd/tree-tagger-english
+    MM_ENV: production
+  pre:
+    - "git config --global user.name 'Circle CI'"
+    - "git config --global user.email 'a+circleci@ngs.io'"
+test:
+  override:
+    - 'echo "OK"'
+compile:
+  override:
+    - bundle exec middleman build --verbose
+deployment:
+  main:
+    branch: 'master'
+    commands:
+      - bundle exec middleman deploy >/dev/null 2>&1
