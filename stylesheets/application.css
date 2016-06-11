@@ -1,0 +1,67 @@
+/* line 1, /home/travis/build/ngs/ci2go.com/source/stylesheets/application.css.sass */
+body {
+  background: #2b2b2b;
+  color: #777;
+  font-family: "pragmatica-web-condensed", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  margin: 0;
+  padding: 2em 0;
+  text-align: center; }
+
+/* line 11, /home/travis/build/ngs/ci2go.com/source/stylesheets/application.css.sass */
+a {
+  color: #999;
+  text-decoration: underline; }
+  /* line 14, /home/travis/build/ngs/ci2go.com/source/stylesheets/application.css.sass */
+  a:hover {
+    color: #2b2b2b;
+    background: #999; }
+
+/* line 18, /home/travis/build/ngs/ci2go.com/source/stylesheets/application.css.sass */
+.text {
+  width: 24em;
+  margin: 0 auto;
+  text-align: left; }
+
+/* line 23, /home/travis/build/ngs/ci2go.com/source/stylesheets/application.css.sass */
+h1 {
+  font-family: "pragmatica-web-condensed", sans-serif;
+  font-style: italic;
+  font-weight: 900; }
+
+/* line 28, /home/travis/build/ngs/ci2go.com/source/stylesheets/application.css.sass */
+h2 {
+  font-family: "pragmatica-web-condensed", sans-serif;
+  font-style: normal;
+  font-weight: 400; }
+
+@media screen and (max-width: 450px) {
+  /* line 34, /home/travis/build/ngs/ci2go.com/source/stylesheets/application.css.sass */
+  h2 span {
+    display: block; }
+
+  /* line 36, /home/travis/build/ngs/ci2go.com/source/stylesheets/application.css.sass */
+  .text {
+    width: auto; } }
+/* line 38, /home/travis/build/ngs/ci2go.com/source/stylesheets/application.css.sass */
+.wrap {
+  max-width: 500px;
+  width: 80%;
+  margin: 0 auto; }
+
+/* line 43, /home/travis/build/ngs/ci2go.com/source/stylesheets/application.css.sass */
+p {
+  margin: 0; }
+
+/* line 46, /home/travis/build/ngs/ci2go.com/source/stylesheets/application.css.sass */
+.caption {
+  margin: 1em 0 5em 0; }
+
+/* line 50, /home/travis/build/ngs/ci2go.com/source/stylesheets/application.css.sass */
+.img p {
+  margin: 1em 0; }
+  /* line 52, /home/travis/build/ngs/ci2go.com/source/stylesheets/application.css.sass */
+  .img p img {
+    width: 100%;
+    border: 2px solid #777; }
