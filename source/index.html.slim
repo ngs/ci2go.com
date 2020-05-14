@@ -2,21 +2,5 @@
 title: CI2Go The CircleCI Client for iPhone and iPad
 ---
 
-.wrap
-  object type="image/svg+xml" data=asset_url("logo.svg", "images") width="100%" height="100%"
-  .text
-    h1 CI2Go
-    h2
-      span The CircleCI Client&nbsp;
-      span for iPhone and iPad
-    p.caption
-      == link_to 'http://bit.ly/ci2go-appstore' do
-        img src='https://ngs.io/images/appstore.svg'
-  .img
-    - 1.upto(5) do|n|
-      p
-        img src="https://raw.githubusercontent.com/ngs/ci2go/master/fastlane/screenshots/en-US/#{n}_ipad_#{n}.pr_source.png"
-    p.author
-      | &copy; #{Time.new.year}&nbsp;
-      == link_to 'Atsushi Nagase', 'http://ngs.io/'
-      | .
+script
+  document.location.href = 'https://ci2go.com'
